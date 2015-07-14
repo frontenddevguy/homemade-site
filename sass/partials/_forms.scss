@@ -1,30 +1,40 @@
 /* Contact Forms 7 */
 
 /* Contact form */
-#hm-contactform {}
-
+#hm-contactform {
+}
 *::-webkit-input-placeholder {
-    color: #3eb69f!important;
+	color: #3eb69f !important;
 }
 *:-moz-placeholder {
-    /* FF 4-18 */
-    color: #3eb69f!important;
+
+	/* FF 4-18 */
+	color: #3eb69f !important;
 }
 *::-moz-placeholder {
-    /* FF 19+ */
-    color: #3eb69f!important;
+
+	/* FF 19+ */
+	color: #3eb69f !important;
 }
 *:-ms-input-placeholder {
-    /* IE 10+ */
-    color: #3eb69f!important;
-}
 
-#hm-contactform input[type='text'], #hm-contactform textarea { 
-	font-size:25px;
-	color:#3eb69f!important;
-	background-color:#f1f1ed!important; 
-	border:0 none!important; 
-	border-bottom:3px solid #3eb59e!important; 
+	/* IE 10+ */
+	color: #3eb69f !important;
 }
-#hm-contactform .form_element { text-align:center; }
-#hm-contactform .form_element .button { background-color:#f1f1ed; color:#3eb59e; border:3px solid #3eb59e!important; text-transform:uppercase; font-family: 'sofia_light'; }
+#hm-contactform input[type='text'], #hm-contactform textarea {
+	font-size: 25px;
+	color: #3eb69f !important;
+	background-color: #f1f1ed !important;
+	border: 0 none !important;
+	border-bottom: 3px solid #3eb59e !important;
+}
+#hm-contactform .form_element {
+	text-align: center;
+}
+#hm-contactform .form_element .button {
+	background-color: #f1f1ed;
+	color: #3eb59e;
+	border: 3px solid #3eb59e !important;
+	text-transform: uppercase;
+	font-family: 'sofia_light';
+}

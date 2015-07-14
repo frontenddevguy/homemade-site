@@ -1,4 +1,12 @@
 @import url("../fonts/fonts.css");
+/* Enfold Grid */
+div .av_one_fourth {
+  margin-left: 2%;
+  width: 23.4%; }
+
+.av_one_third {
+  margin-left: 15px; }
+
 /* Typography */
 .hm-hello h1 {
   font-size: 160px;
@@ -13,39 +21,49 @@
 
 /* Buttons */
 /* General Layout */
-html, body {
+html,
+body {
   background-color: #f1f1ed;
-  font-family: "sofia_bold" !important; }
+  font-family: 'sofia_bold' !important; }
 
 p {
   color: #35354c; }
 
-.av-subheading p, .avia_textblock p {
+.av-subheading p,
+.avia_textblock p {
   width: 850px;
   margin: 0 auto;
   font-family: 'sofia_light'; }
 
 /**** Content ****/
-#main .container_wrap > .container, #main .container > .content {
+#main .container_wrap > .container,
+#main .container > .content {
   padding: 0; }
 
-/* Intro */
-#hm-intro > .container,
-#hm-short-info > .container,
-#hm-work > .container,
-#hm-wedo > .container,
-#hm-contactform > .container,
-footer .container,
-#hm-clients > .container,
-.hm-gray-block > .container, .hm-white-block > .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 130px 0 !important; }
+#top {
+  /* Intro */ }
+  #top #hm-intro > .container,
+  #top #hm-short-info > .container,
+  #top #hm-work > .container,
+  #top #hm-wedo > .container,
+  #top #hm-contactform > .container,
+  #top footer .container,
+  #top #hm-clients > .container,
+  #top .hm-gray-block > .container,
+  #top .hm-white-block > .container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 130px 0 !important; }
 
-#hm-intro > .container, #hm-clients > .container {
+#hm-intro > .container,
+#hm-clients > .container {
   padding-top: 0; }
 
-.hm-gray-block, #hm-intro, #hm-work, #hm-contactform, #hm-clients {
+.hm-gray-block,
+#hm-intro,
+#hm-work,
+#hm-contactform,
+#hm-clients {
   background-color: #f1f1ed; }
 
 .hm-white-block {
@@ -98,7 +116,8 @@ footer .container,
 #hm-short-info .hm-wehelp {
   margin-top: 0; }
 
-#hm-short-info .hm-wehelp .slide-image, #hm-short-info .hm-wehelp .slide-meta {
+#hm-short-info .hm-wehelp .slide-image,
+#hm-short-info .hm-wehelp .slide-meta {
   display: none; }
 
 #hm-short-info .hm-wehelp .slide-entry-excerpt {
@@ -117,17 +136,20 @@ footer .container,
 
 #hm-short-info .hm-wehelp .more-link > span {
   display: inline-block;
-  background: url("images/arrow-green.png") right center no-repeat;
+  background: url("../images/arrow-green.png") right center no-repeat;
   text-indent: -9999px; }
 
 #hm-short-info .hm-wehelp .more-link:hover > span {
-  background-image: url("images/arrow-green-hov.png");
+  background-image: url("../images/arrow-green-hov.png");
   margin-left: 2px; }
 
 #hm-short-info .read-more-link {
   margin-top: 35px; }
 
 /* Our work */
+#hm-work .av_one_third {
+  margin: 3%; }
+
 #hm-work .slide-content .slide-meta {
   display: none; }
 
@@ -171,7 +193,7 @@ footer .container,
   text-indent: -9999px; }
 
 #hm-work .slide-content .more-link:hover {
-  background: url("images/ico-readmore.png") center center no-repeat;
+  background: url("../images/ico-readmore.png") center center no-repeat;
   background-color: rgba(62, 181, 158, 0.9); }
 
 /* What we do */
@@ -181,7 +203,7 @@ footer .container,
   z-index: 999; }
 
 #hm-wedo .grid-image:hover {
-  background: url("images/ico-readmore.png") center center no-repeat;
+  background: url("../images/ico-readmore.png") center center no-repeat;
   background-color: rgba(62, 181, 158, 0.9); }
 
 #hm-wedo .grid-image:hover img {
@@ -197,7 +219,6 @@ footer .container,
 
 #hm-wedo .grid-entry .inner-entry {
   background-color: #f7f7f5;
-  width: 380px;
   height: 414px;
   text-align: center; }
 
@@ -221,7 +242,8 @@ footer .container,
   font-family: 'sofia_light';
   margin-top: 20px; }
 
-#hm-wedo .grid-entry .inner-entry .grid-content, #hm-wedo .grid-content h3 {
+#hm-wedo .grid-entry .inner-entry .grid-content,
+#hm-wedo .grid-content h3 {
   background-color: transparent; }
 
 .avia_transform a .image-overlay {
@@ -253,7 +275,7 @@ footer .container,
   opacity: 0; }
 
 #hm-clients .slide-image:hover:after {
-  background: #ec6457 url("images/ico-link.png") center center no-repeat;
+  background: #ec6457 url("../images/ico-link.png") center center no-repeat;
   opacity: 0.95; }
 
 #hm-clients .slide-image img {
@@ -280,7 +302,7 @@ footer .container,
   display: block;
   width: 244px;
   overflow: hidden;
-  background: url("images/logo-main.png") left top no-repeat;
+  background: url("../images/logo-main.png") left top no-repeat;
   margin: 70px 0 0 60px;
   text-indent: -9999px; }
 
@@ -302,7 +324,7 @@ nav.main_menu {
   right: 0;
   width: 100%;
   height: 865px;
-  background: url("images/bgr-red-90.png") left top repeat;
+  background: url("../images/bgr-red-90.png") left top repeat;
   z-index: 990; }
 
 nav.active {
@@ -361,8 +383,7 @@ nav .menu li > a {
   height: 4px;
   background: #ee6558; }
 
-.cmn-toggle-switch span::before,
-.cmn-toggle-switch span::after {
+.cmn-toggle-switch span::before, .cmn-toggle-switch span::after {
   position: absolute;
   display: block;
   left: 0;
@@ -384,8 +405,7 @@ nav .menu li > a {
   -webkit-transition: background 0 0.3s;
   transition: background 0 0.3s; }
 
-.cmn-toggle-switch__htx span::before,
-.cmn-toggle-switch__htx span::after {
+.cmn-toggle-switch__htx span::before, .cmn-toggle-switch__htx span::after {
   -webkit-transition-duration: 0.3s, 0.3s;
   transition-duration: 0.3s, 0.3s;
   -webkit-transition-delay: 0.3s, 0;
@@ -418,8 +438,7 @@ nav .menu li > a {
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
-.cmn-toggle-switch__htx.active span::before,
-.cmn-toggle-switch__htx.active span::after {
+.cmn-toggle-switch__htx.active span::before, .cmn-toggle-switch__htx.active span::after {
   background: #fff;
   -webkit-transition-delay: 0, 0.3s;
   transition-delay: 0, 0.3s; }
@@ -431,7 +450,7 @@ nav .menu li > a {
   float: right;
   width: 451px;
   height: 140px;
-  background: url("images/bgr-footer.png") top left no-repeat; }
+  background: url("../images/bgr-footer.png") top left no-repeat; }
 
 footer .social_bookmarks {
   position: absolute !important;
@@ -488,7 +507,7 @@ footer .social_bookmarks li:hover a {
 
 /* Easy slider TV */
 .hm-slider-tv {
-  background: url("images/slider-tv.png") center center no-repeat;
+  background: url("../images/slider-tv.png") center center no-repeat;
   height: 650px;
   padding-top: 115px;
   padding-bottom: 0; }
@@ -509,13 +528,13 @@ footer .social_bookmarks li:hover a {
   opacity: 1; }
 
 .hm-stats.hm-raised .avia-animated-number-icon {
-  background: url("images/ico-raised.png") center top no-repeat; }
+  background: url("../images/ico-raised.png") center top no-repeat; }
 
 .hm-stats.hm-rate .avia-animated-number-icon {
-  background: url("images/ico-rate.png") center top no-repeat; }
+  background: url("../images/ico-rate.png") center top no-repeat; }
 
 .hm-stats.hm-proof .avia-animated-number-icon {
-  background: url("images/ico-proof.png") center top no-repeat; }
+  background: url("../images/ico-proof.png") center top no-repeat; }
 
 /* Contact Forms 7 */
 /* Contact form */

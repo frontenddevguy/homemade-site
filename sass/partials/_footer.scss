@@ -1,7 +1,25 @@
 /* Footer */
-
-#footer-social { position:relative; overflow:hidden; float:right; width:451px; height:140px; background:url('images/bgr-footer.png') top left no-repeat; }
-footer .social_bookmarks { position:absolute!important; top:58px; left:130px; }
-footer .social_bookmarks li { border-radius:0!important; }
-footer .social_bookmarks li a { color:#fff!important; border-radius:0!important; font-size:20px; }
-footer .social_bookmarks li:hover a { background-color:transparent!important; }
+#footer-social {
+	position: relative;
+	overflow: hidden;
+	float: right;
+	width: 451px;
+	height: 140px;
+	background: url('../images/bgr-footer.png') top left no-repeat;
+}
+footer .social_bookmarks {
+	position: absolute !important;
+	top: 58px;
+	left: 130px;
+}
+footer .social_bookmarks li {
+	border-radius: 0 !important;
+}
+footer .social_bookmarks li a {
+	color: #fff !important;
+	border-radius: 0 !important;
+	font-size: 20px;
+}
+footer .social_bookmarks li:hover a {
+	background-color: transparent !important;
+}
