@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'sofia_light';
+    src: url('SofiaProLight-webfont.eot');
+    src: url('SofiaProLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SofiaProLight-webfont.woff2') format('woff2'),
+         url('SofiaProLight-webfont.woff') format('woff'),
+         url('SofiaProLight-webfont.ttf') format('truetype'),
+         url('SofiaProLight-webfont.svg#sofia_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sofia_light_italic';
+    src: url('SofiaProLightItalic-webfont.eot');
+    src: url('SofiaProLightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SofiaProLightItalic-webfont.woff2') format('woff2'),
+         url('SofiaProLightItalic-webfont.woff') format('woff'),
+         url('SofiaProLightItalic-webfont.ttf') format('truetype'),
+         url('SofiaProLightItalic-webfont.svg#sofia_prolight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sofia_medium';
+    src: url('SofiaProMedium-webfont.eot');
+    src: url('SofiaProMedium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SofiaProMedium-webfont.woff2') format('woff2'),
+         url('SofiaProMedium-webfont.woff') format('woff'),
+         url('SofiaProMedium-webfont.ttf') format('truetype'),
+         url('SofiaProMedium-webfont.svg#sofia_promedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sofia_regular';
+    src: url('SofiaProRegular-webfont.eot');
+    src: url('SofiaProRegular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SofiaProRegular-webfont.woff2') format('woff2'),
+         url('SofiaProRegular-webfont.woff') format('woff'),
+         url('SofiaProRegular-webfont.ttf') format('truetype'),
+         url('SofiaProRegular-webfont.svg#sofia_pro_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sofia_regular_italic';
+    src: url('SofiaProRegularItalic-webfont.eot');
+    src: url('SofiaProRegularItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SofiaProRegularItalic-webfont.woff2') format('woff2'),
+         url('SofiaProRegularItalic-webfont.woff') format('woff'),
+         url('SofiaProRegularItalic-webfont.ttf') format('truetype'),
+         url('SofiaProRegularItalic-webfont.svg#sofia_proregular_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sofia_bold';
+    src: url('SofiaProSemiBold-webfont.eot');
+    src: url('SofiaProSemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SofiaProSemiBold-webfont.woff2') format('woff2'),
+         url('SofiaProSemiBold-webfont.woff') format('woff'),
+         url('SofiaProSemiBold-webfont.ttf') format('truetype'),
+         url('SofiaProSemiBold-webfont.svg#sofia_prosemi_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
