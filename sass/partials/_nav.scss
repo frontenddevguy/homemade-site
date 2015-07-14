@@ -1,0 +1,135 @@
+/* Nav */
+
+nav.main_menu { 
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0; 
+	width:100%;
+	height:865px;
+	background:url('images/bgr-red-90.png') left top repeat;
+	z-index:990; 
+}
+nav.active { display:block; }
+nav .menu { overflow:hidden; text-align:center; width:380px; margin:170px auto 0; }
+nav .menu li { border-bottom:2px solid #ffffff; }
+.av-main-nav li, .av-main-nav-wrap { float:none; }
+nav .menu li > a { color:#fff!important; font-size:56px; text-transform:lowercase; }
+
+
+
+/* Menu hamberger/x button */
+.cmn-toggle-switch {
+  display: block;
+  float:right;
+  position: absolute;
+  z-index:999;
+  overflow: hidden;
+  margin: 70px 0 0 0;
+  right:90px;
+  padding: 0;
+  width: 46px;
+  height: 30px;
+  font-size: 0;
+  text-indent: -9999px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background 0.3s;
+          transition: background 0.3s;
+}
+
+.cmn-toggle-switch:focus {
+  outline: none;
+}
+
+.cmn-toggle-switch span {
+  display: block;
+  position: absolute;
+  top: 13px;
+  left: 0px;
+  right: 0px;
+  height: 4px;
+  background: #ee6558;
+}
+
+.cmn-toggle-switch span::before,
+.cmn-toggle-switch span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #ee6558;
+  content: "";
+}
+
+.cmn-toggle-switch span::before {
+  top: -9px;
+}
+
+.cmn-toggle-switch span::after {
+  bottom: -9px;
+}
+
+.cmn-toggle-switch__htx {
+  background-color: transparent;
+}
+
+.cmn-toggle-switch__htx span {
+  -webkit-transition: background 0 0.3s;
+          transition: background 0 0.3s;
+}
+
+.cmn-toggle-switch__htx span::before,
+.cmn-toggle-switch__htx span::after {
+  -webkit-transition-duration: 0.3s, 0.3s;
+          transition-duration: 0.3s, 0.3s;
+  -webkit-transition-delay: 0.3s, 0;
+          transition-delay: 0.3s, 0;
+}
+
+.cmn-toggle-switch__htx span::before {
+  -webkit-transition-property: top, -webkit-transform;
+          transition-property: top, transform;
+}
+
+.cmn-toggle-switch__htx span::after {
+  -webkit-transition-property: bottom, -webkit-transform;
+          transition-property: bottom, transform;
+}
+
+/* active state, i.e. menu open */
+.cmn-toggle-switch__htx.active {
+  background-color: transparent;
+}
+
+.cmn-toggle-switch__htx.active span {
+  background: none;
+}
+
+.cmn-toggle-switch__htx.active span::before {
+  top: 0;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.cmn-toggle-switch__htx.active span::after {
+  bottom: 0;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.cmn-toggle-switch__htx.active span::before,
+.cmn-toggle-switch__htx.active span::after {
+	background: #fff;
+  -webkit-transition-delay: 0, 0.3s;
+          transition-delay: 0, 0.3s;
+}

@@ -1,0 +1,19 @@
+/* Header */
+
+#logo-main {
+	display:block;
+	width:244px;
+	overflow:hidden;
+	background:url('images/logo-main.png') left top no-repeat; 
+	margin:70px 0 0 60px;
+	text-indent:-9999px;
+}
+
+#header {
+	position:static;
+	height:190px;
+	overflow:hidden;
+	background-color:#f1f1ed;
+}
+#header .header_bg { display:none; }
+body.home #header {  }
