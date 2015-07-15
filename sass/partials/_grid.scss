@@ -1,10 +1,13 @@
 /* Enfold Grid */
 
-div .av_one_fourth {
-	margin-left: 2%;
-	width: 23.4%;
-}
+body#top {
+	.av_one_fourth {
+		margin-left: 2%;
+		width: 23.4%;
+	}
 
-.av_one_third {
-	margin-left: 15px;
+	.av_one_third {
+		margin: 1.25%;
+		width: 29.583%;
+	}
 }
