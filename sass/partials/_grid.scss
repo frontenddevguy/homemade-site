@@ -6,8 +6,19 @@ body#top {
 		width: 23.4%;
 	}
 
-	.av_one_third {
+	#hm-intro .av_one_fourth {
+		margin: 1%;
+		width: 35%;
+	}
+
+	#hm-intro .av_three_fourth {
+		margin: 1%;
+		width: 61%;
+	}
+
+	.av_one_third,
+	.no_margin.av_one_third {
 		margin: 1.25%;
-		width: 29.583%;
+		width: 30.8333%;
 	}
 }

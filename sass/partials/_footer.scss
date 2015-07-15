@@ -24,6 +24,18 @@ footer .social_bookmarks {
 	} 
 }
 
+#hm-copyright {
+	color: $white;
+	font-size: 30px;
+	font-family: 'sofia_light';
+	line-height: 34px;
+	
+	span {
+		display: block;
+		font-size: 20px;
+	}
+}
+
 #footer-social {
 	position: relative;
 	overflow: hidden;

@@ -74,3 +74,56 @@
 		color: $white;
 	}
 }
+
+
+
+
+
+
+
+// Layerslider
+
+#top .avia-layerslider {
+
+	&.avia-shadow {
+		box-shadow: none;
+	}
+
+	.ls-bottom-nav-wrapper .ls-bottom-slidebuttons a {
+		background-color: $white;
+		border: none!important;
+		opacity: 1;
+		margin: 0 5px;
+
+		&.ls-nav-active {
+			background-color: $color_roman_approx;
+		} 
+	}
+	
+
+	.ls-nav-prev::before,
+	.ls-nav-next::before {
+	    background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+	    border-radius: 30px;
+	    color: $color_roman_approx;
+	    opacity: 1;
+	}
+
+	.ls-nav-prev,
+	.ls-nav-next {
+		opacity: 1;
+
+		&:hover::before {
+			background: $color_roman_approx;
+			color: $white;
+		}
+	}
+}
+
+
+
+
+
+
+
+

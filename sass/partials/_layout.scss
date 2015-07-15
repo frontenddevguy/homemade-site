@@ -28,22 +28,24 @@ p {
 
 #hm-intro {
 	background-color: $color_pampas_approx;
+	padding-bottom: 60px;
+
 	.hm-hello {
 		float: left;
-		margin-top: 150px;
-		width: 410px;
+		margin-top: 70px;
 	}
+	
 	.hm-machine {
 		float: right;
 		margin-top: -130px;
 		margin-right: -112px;
-		width: 833px;
 		height: 623px;
 	}
+	
 	> .container {
 		width: 1200px;
 		margin: 0 auto;
-		padding: 130px 0!important;
+		padding: 130px 0;
 		padding-top: 0;
 	}
 }
@@ -106,9 +108,7 @@ p {
 
 #hm-work {
 	background-color: $color_pampas_approx;
-	// .av_one_third {
-	// 	margin: 15px;
-	// }
+	
 	.slide-content {
 		position: relative;
 		.slide-meta {
@@ -273,12 +273,14 @@ p {
 	}
 }
 
+// Projects
+
 .hm-gray-block {
 	background-color: $color_pampas_approx;
 	> .container {
 		width: 1200px;
 		margin: 0 auto;
-		padding: 130px 0!important;
+		padding: 50px 0;
 	}
 }
 
@@ -287,26 +289,73 @@ p {
 	> .container {
 		width: 1200px;
 		margin: 0 auto;
-		padding: 130px 0!important;
+		padding: 50px 0;
 	}
 }
 
-#hm-copyright {
-	color: $white;
-	font-size: 30px;
-	font-family: 'sofia_light';
-	span {
-		display: block;
-		font-size: 20px;
+#layer_slider_1.avia-shadow {
+	background-color: $color_pampas_approx;
+	box-shadow: none;
+}
+
+.project-intro,
+.challenge,
+.approach,
+.results,
+.learnings {
+	padding: 50px 0 140px 0;
+}
+
+.project-intro {
+	padding-top: 0;
+}
+
+.challenge {
+	padding-bottom: 100px;
+}
+
+.approach {
+	padding-bottom: 0;
+}
+
+.avia-layerslider {
+	padding-bottom: 50px;
+}
+
+
+
+.hm_svg-icon {
+	.avia-image-container-inner {
+		height: 150px;
+		 img {
+		 	vertical-align: bottom;
+		 }
 	}
 }
+
+.rugby-posts img {
+	height: 110px;
+}
+
+.pound img {
+	height: 100px;
+}
+
+.rocket img {
+	height: 135px;
+}
+
+
+
+
+
 .av-subheading p {
 	width: 850px;
 	margin: 0 auto;
 	font-family: 'sofia_light';
 }
 .avia_textblock p {
-	width: 850px;
+	// width: 850px;
 	margin: 0 auto;
 	font-family: 'sofia_light';
 }

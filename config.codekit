@@ -176,6 +176,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/carousel_arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5096,
+		"inputAbbreviatedPath": "\/images\/carousel_arrow.png",
+		"outputAbbreviatedPath": "\/images\/carousel_arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ico-consulting.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -524,6 +535,17 @@
 		"initialSize": 68139,
 		"inputAbbreviatedPath": "\/images\/slide2.png",
 		"outputAbbreviatedPath": "\/images\/slide2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/slide_delivery-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 205428,
+		"inputAbbreviatedPath": "\/images\/slide_delivery-1.jpg",
+		"outputAbbreviatedPath": "\/images\/slide_delivery-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
